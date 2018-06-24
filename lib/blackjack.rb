@@ -28,15 +28,14 @@ def end_game(num)
   # code #end_game here
   if num > 21
     puts "Sorry, you hit #{num}. Thanks for playing!"
-  end 
+  end
 end
 
 def initial_round
   # code #initial_round here
-  first = deal_card 
-  second = deal_card 
-  sum = first + second 
-  puts sum
+  first = deal_card
+  second = deal_card
+  sum = first + second
 end
 
 def hit?
