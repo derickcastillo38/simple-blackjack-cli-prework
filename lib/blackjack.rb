@@ -21,7 +21,7 @@ end
 def get_user_input
   # code #get_user_input here
   input = gets.chomp
-  puts "#{input.to_s}"
+  input.to_s
 end
 
 def end_game
