@@ -33,6 +33,10 @@ end
 
 def initial_round
   # code #initial_round here
+  first = deal_card 
+  second = deal_card 
+  sum = first + second 
+  puts sum
 end
 
 def hit?
